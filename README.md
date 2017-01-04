@@ -12,3 +12,42 @@ Please don't expect that I can finish the translation.
 
 Therefore, [Steam mod for wayward](http://steamcommunity.com/app/379210/workshop/) has not been planned.
 所以，並沒有打算製作 [Steam 模組](http://steamcommunity.com/app/379210/workshop/)。
+
+> #### 翻譯困難的字串 [最後更新：2017.01.04 (UTC+8)]
+> 
+> **Message class**
+> NumberEight
+> NumberFive
+> NumberFour
+> NumberNine
+> NumberOne
+> NumberSeven
+> NumberSix
+> NumberTen
+> NumberThree
+> NumberTwo
+> 
+> **Creature class**
+> AcidSpitterDemon
+> Blindfish
+> Bogling
+> ClawWorm
+> Drake
+> TimeSkitter
+> TrapdoorSpider
+> 
+> **Terrain/tiles class**
+> PalmTreeWithCoconuts
+> RocksWithCoal
+> RocksWithIron
+> RocksWithLimestone
+> RocksWithTalc
+> SandstoneFlooring
+> SandstoneWithIron
+> SandstoneWithNiter
+> TreeWithBerries
+> TreeWithFungus
+> TreeWithVines
+> 
+> **Other class**
+> 所有單數量詞的刪除或保留：a、an。
