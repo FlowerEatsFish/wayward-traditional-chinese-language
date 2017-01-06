@@ -14,12 +14,12 @@
 所以，並沒有打算製作 [Steam 模組](http://steamcommunity.com/app/379210/workshop/)。
 
 > #### 翻譯困難的字串 [最後更新：2017.01.05 (UTC+8)]
-> 有些字串是本人想透過遊戲摸索以得到更好的翻譯。不幸地是，本人一直活不過第一個晚上。
+> 有些字串是本人想透過探索遊戲以得到更好的翻譯。不幸的是，本人一直活不過第一個晚上。
 > 
 > **UI class:**
 > Malignity
 > Container
->
+> 
 > **Message class:** 
 > NumberEight
 > NumberFive
@@ -41,6 +41,29 @@
 > TimeSkitter
 > TrapdoorSpider
 > 
+> **Item class:**
+> CharcoalBandage
+> CreatureIdol
+> Deadfall
+> Ectoplasm
+> FireBladder
+> Giblets
+> Niter
+> Nopal
+> Offal
+> OldInstructionalScroll
+> OrbOfMalign
+> PeatBandage
+> PoisonIvyLeaves
+> PoisonIvySeeds
+> PreparedPemmican
+> RefinedSand
+> Rope
+> Saltpeter
+> SandCastFlask
+> Skullcap
+> String
+> 
 > **Terrain/tiles class:**
 > PalmTreeWithCoconuts
 > RocksWithCoal
@@ -53,7 +76,10 @@
 > TreeWithBerries
 > TreeWithFungus
 > TreeWithVines
->
+> 
 > **Other class:**
 > a
 > an
+> 
+> **Ignorable class:**
+> Detail of items, creatures, etc.
