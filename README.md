@@ -13,7 +13,7 @@
 #### Therefore, [Steam mod for wayward](http://steamcommunity.com/app/379210/workshop/) has not been planned.
 所以，並沒有打算製作 [Steam 模組](http://steamcommunity.com/app/379210/workshop/)。
 
-> #### 翻譯困難的字串 [最後更新：2017.01.05 (UTC+8)]
+> #### 翻譯困難的字串 [最後更新：2017.01.07 (UTC+8)]
 > 有些字串是本人想透過探索遊戲以得到更好的翻譯。不幸的是，本人一直活不過第一個晚上。
 > 
 > **UI class:**
@@ -63,6 +63,21 @@
 > SandCastFlask
 > Skullcap
 > String
+> StrippedBark
+> Tannin
+> Thistles
+> WildOnion
+> WoodenDoor
+> WoodenGate
+> WroughtIron
+>
+> **ItemGroup class:**
+> Health
+> Pole
+> Pulp
+> Reinforce
+> Skewer
+> Transmogrify
 > 
 > **Terrain/tiles class:**
 > PalmTreeWithCoconuts
@@ -82,4 +97,4 @@
 > an
 > 
 > **Ignorable class:**
-> Detail of items, creatures, etc.
+> *detail of items, creatures, etc.*
