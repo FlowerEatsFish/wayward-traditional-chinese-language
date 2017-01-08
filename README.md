@@ -17,7 +17,14 @@
 
 > #### 檔案列表：
 > README.md : 本文。
-> TraditionalChinese.ts : 從原作者的原始檔案複製過來的，為翻譯初稿。
+>
+> TraditionalChinese.ts : 翻譯初稿，從原作者的原始檔案複製過來。已停止更新。 (Stop to commit it.)
+>
+> mod.json : Wayward local 及 Steam Workshop mods 正式檔案。
+>
+> mod.png : Wayward local 及 Steam Workshop mods 正式檔案。
+>
+> TraditionalChinese.js : Wayward local 及 Steam Workshop mods 正式檔案。
 
 ***
 
