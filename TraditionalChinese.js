@@ -434,7 +434,7 @@
 			TraditionalChinese.message(Message.LabelLastUpdated, "最後更新：");
 			TraditionalChinese.message(Message.LabelLeftHandAttack, "左手攻擊力：");
 			TraditionalChinese.message(Message.LabelLevel, "等級：");
-			TraditionalChinese.message(Message.LabelLightSourceWhenLit, 燃燒時的光源：");
+			TraditionalChinese.message(Message.LabelLightSourceWhenLit, "燃燒時的光源：");
 			TraditionalChinese.message(Message.LabelMalignityNegative, "減少的罪惡值：");
 			TraditionalChinese.message(Message.LabelMalignityPlus, "增加的罪惡值：");
 			TraditionalChinese.message(Message.LabelOnEquip, "On Equip: ");
