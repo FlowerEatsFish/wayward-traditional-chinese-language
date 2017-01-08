@@ -79,6 +79,11 @@
 > Skewer
 > Transmogrify
 > 
+> **DoodadType class:**
+> Acid
+> CreatureIdol
+> SetDeadfall
+> 
 > **Terrain/tiles class:**
 > PalmTreeWithCoconuts
 > RocksWithCoal
