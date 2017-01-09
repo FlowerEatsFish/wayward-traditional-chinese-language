@@ -31,22 +31,6 @@
 > #### 翻譯困難的字串 [最後更新：2017.01.08 (UTC+8)]
 > 有些字串是本人想透過探索遊戲以得到更好的翻譯。不幸的是，本人一直活不過第一個晚上。
 > 
-> **UI class:**
-> Malignity
-> Container
-> 
-> **Message class:** 
-> NumberEight
-> NumberFive
-> NumberFour
-> NumberNine
-> NumberOne
-> NumberSeven
-> NumberSix
-> NumberTen
-> NumberThree
-> NumberTwo
-> 
 > **Creature class:**
 > AcidSpitterDemon
 > Blindfish
@@ -73,11 +57,8 @@
 > PoisonIvySeeds
 > PreparedPemmican
 > RefinedSand
-> Rope
 > Saltpeter
 > SandCastFlask
-> Skullcap
-> String
 > StrippedBark
 > Tannin
 > Thistles
@@ -112,6 +93,10 @@
 > TreeWithBerries
 > TreeWithFungus
 > TreeWithVines
+> 
+> **HintType class:**
+> Doodads
+> Encumberance
 > 
 > **Other class:**
 > a
