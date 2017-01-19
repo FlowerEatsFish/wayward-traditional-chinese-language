@@ -18,7 +18,7 @@
 > #### 檔案列表：
 > README.md : 本文。
 >
-> TraditionalChinese.ts : 翻譯初稿，源自原作者的原始檔案。已停止更新。改由 TraditionalChinese.js 接手繼續翻譯。 (It has stopped to be committed for mod request. Please follow TraditionalChinese.js file.)
+> TraditionalChinese.ts : 翻譯初稿，源自原作者的原始檔案。因應模組需求，已刪除，並改由 TraditionalChinese.js 接手繼續翻譯。 (This file has been deleted for mod request. Please follow TraditionalChinese.js file.)
 >
 > mod.json : Wayward local 及 Steam Workshop mods 正式檔案。
 >
