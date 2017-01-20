@@ -35,15 +35,15 @@
 			TraditionalChinese.ui(Languages.UiTranslation.Hunger, "飽腹值 (代謝值)");
 			TraditionalChinese.ui(Languages.UiTranslation.Malignity, "罪惡值");
 			TraditionalChinese.ui(Languages.UiTranslation.MenuAbout, "關於");
-			TraditionalChinese.ui(Languages.UiTranslation.MenuAboutCredits, "Vaughn 'Drathy' Royko (Programming/Web/PR/Design),Gary 'Spacetech' Wilber (Programming),Frank 'Sassafrass' Sasto (Programming),Dusty 'Goaticide' Melling (Art/Design),Austin Dhillon (Music)");
-			TraditionalChinese.ui(Languages.UiTranslation.MenuAboutDonators, "An extra special thank you to all the early testers, donators, and other supporters.");
-			TraditionalChinese.ui(Languages.UiTranslation.MenuAboutIntro, "Wayward is a turn-based, top-down, wilderness survival roguelike currently in beta. It's brought to you by these fine folk:");
-			TraditionalChinese.ui(Languages.UiTranslation.MenuAboutLibraries, "Greenworks, Electron, TypeScript, Node.js, jQuery, jQueryUI, TSM, lz-string, jQuery contextMenu, jQuery UI Touch Punch, Pluralize, Fixedsys Excelsior");
-			TraditionalChinese.ui(Languages.UiTranslation.MenuAboutLibrariesIntro, "Wayward is made possible with the following projects:");
+			TraditionalChinese.ui(Languages.UiTranslation.MenuAboutCredits, "Vaughn 'Drathy' Royko (Programming/Web/PR/Design),Gary 'Spacetech' Wilber (Programming),Frank 'Sassafrass' Sasto (Programming),Dusty 'Goaticide' Melling (Art/Design),Austin Dhillon (Music)"); // 不需要翻譯
+			TraditionalChinese.ui(Languages.UiTranslation.MenuAboutDonators, "An extra special thank you to all the early testers, donators, and other supporters."); // 不需要翻譯
+			TraditionalChinese.ui(Languages.UiTranslation.MenuAboutIntro, "Wayward is a turn-based, top-down, wilderness survival roguelike currently in beta. It's brought to you by these fine folk:"); // 不需要翻譯
+			TraditionalChinese.ui(Languages.UiTranslation.MenuAboutLibraries, "Greenworks, Electron, TypeScript, Node.js, jQuery, jQueryUI, TSM, lz-string, jQuery contextMenu, jQuery UI Touch Punch, Pluralize, Fixedsys Excelsior"); // 不需要翻譯
+			TraditionalChinese.ui(Languages.UiTranslation.MenuAboutLibrariesIntro, "Wayward is made possible with the following projects:"); // 不需要翻譯
 			TraditionalChinese.ui(Languages.UiTranslation.MenuAboutMessage, "閱讀更多關於 Wayward");
-			TraditionalChinese.ui(Languages.UiTranslation.MenuAboutThanks, "Richard 'Orillian' Hobson,Vlad 'vlsd' Seghete,Unstoppable Carl Olsen,Justin 'boxofrox' Charette,Frank Orechio,Drachlen,Joshua 'jday' Day,Oddmund 'oddmunds' Strømme");
-			TraditionalChinese.ui(Languages.UiTranslation.MenuAboutThanksIntro, "With special thanks to:");
-			TraditionalChinese.ui(Languages.UiTranslation.MenuAboutUnlok, `Wayward Beta ${gameVersion} © Unlok, 2011-2016`);
+			TraditionalChinese.ui(Languages.UiTranslation.MenuAboutThanks, "Richard 'Orillian' Hobson,Vlad 'vlsd' Seghete,Unstoppable Carl Olsen,Justin 'boxofrox' Charette,Frank Orechio,Drachlen,Joshua 'jday' Day,Oddmund 'oddmunds' Strømme"); // 不需要翻譯
+			TraditionalChinese.ui(Languages.UiTranslation.MenuAboutThanksIntro, "With special thanks to:"); // 不需要翻譯
+			TraditionalChinese.ui(Languages.UiTranslation.MenuAboutUnlok, `Wayward Beta ${gameVersion} © Unlok, 2011-2016`); // 不需要翻譯
 			TraditionalChinese.ui(Languages.UiTranslation.MenuDailyChallenge, "每日挑戰");
 			TraditionalChinese.ui(Languages.UiTranslation.MenuDeleteAllGameData, "刪除所有遊戲數據");
 			TraditionalChinese.ui(Languages.UiTranslation.MenuDeleteGame, "刪除遊戲");
@@ -139,21 +139,21 @@
 			TraditionalChinese.ui(Languages.UiTranslation.OptionsZoomOut, "拉遠視野");
 			TraditionalChinese.ui(Languages.UiTranslation.Poisoned, "中毒");
 			TraditionalChinese.ui(Languages.UiTranslation.PreviousHint, "上一個提示");
-			TraditionalChinese.ui(Languages.UiTranslation.QuickSlot1, "1");
-			TraditionalChinese.ui(Languages.UiTranslation.QuickSlot2, "2");
-			TraditionalChinese.ui(Languages.UiTranslation.QuickSlot3, "3");
-			TraditionalChinese.ui(Languages.UiTranslation.QuickSlot4, "4");
-			TraditionalChinese.ui(Languages.UiTranslation.QuickSlot5, "5");
-			TraditionalChinese.ui(Languages.UiTranslation.QuickSlot6, "6");
-			TraditionalChinese.ui(Languages.UiTranslation.QuickSlot7, "7");
-			TraditionalChinese.ui(Languages.UiTranslation.QuickSlot8, "8");
-			TraditionalChinese.ui(Languages.UiTranslation.QuickSlot9, "9");
+			TraditionalChinese.ui(Languages.UiTranslation.QuickSlot1, "1"); // 不需要翻譯
+			TraditionalChinese.ui(Languages.UiTranslation.QuickSlot2, "2"); // 不需要翻譯
+			TraditionalChinese.ui(Languages.UiTranslation.QuickSlot3, "3"); // 不需要翻譯
+			TraditionalChinese.ui(Languages.UiTranslation.QuickSlot4, "4"); // 不需要翻譯
+			TraditionalChinese.ui(Languages.UiTranslation.QuickSlot5, "5"); // 不需要翻譯
+			TraditionalChinese.ui(Languages.UiTranslation.QuickSlot6, "6"); // 不需要翻譯
+			TraditionalChinese.ui(Languages.UiTranslation.QuickSlot7, "7"); // 不需要翻譯
+			TraditionalChinese.ui(Languages.UiTranslation.QuickSlot8, "8"); // 不需要翻譯
+			TraditionalChinese.ui(Languages.UiTranslation.QuickSlot9, "9"); // 不需要翻譯
 			TraditionalChinese.ui(Languages.UiTranslation.ReturnToTitleScreen, "回主畫面");
 			TraditionalChinese.ui(Languages.UiTranslation.Stamina, "耐力值 (靈巧值)");
 			TraditionalChinese.ui(Languages.UiTranslation.TabCrafting, "合成");
 			TraditionalChinese.ui(Languages.UiTranslation.TabDismantle, "拆解");
 			TraditionalChinese.ui(Languages.UiTranslation.Thirst, "水份值 (代謝值)");
-			TraditionalChinese.ui(Languages.UiTranslation.Version, `Wayward Beta ${gameVersion}`);
+			TraditionalChinese.ui(Languages.UiTranslation.Version, `Wayward Beta ${gameVersion}`); // 不需要翻譯
 			TraditionalChinese.ui(Languages.UiTranslation.Weight, "負重值 (力量值)");
 			TraditionalChinese.ui(Languages.UiTranslation.WindowTitleContainer, "儲藏");
 			TraditionalChinese.ui(Languages.UiTranslation.WindowTitleCrafting, "工藝");
