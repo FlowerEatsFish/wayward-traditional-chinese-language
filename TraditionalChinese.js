@@ -206,8 +206,8 @@
 			TraditionalChinese.message(Message.BleedingProfusely, "你已經開始大量流血！");
 			TraditionalChinese.message(Message.BleedingToDeathLostHealth, "你快要因為流血而死亡！你失去 _0_ 點生命值！");
 			TraditionalChinese.message(Message.Blunt, "打擊");
-			TraditionalChinese.message(Message.BrokeIntoPieces, "_0_ could no longer be repaired and broke into pieces.");
-			TraditionalChinese.message(Message.BrokenOnImpact, "_0_ has broken on impact!");
+			TraditionalChinese.message(Message.BrokeIntoPieces, "_0_ 因為破損嚴重而變成碎片了！");
+			TraditionalChinese.message(Message.BrokenOnImpact, "_0_ 在撞擊之中被破壞了！");
 			TraditionalChinese.message(Message.BrokenWhileFiring, "_0_ 被火燒壞了！");
 			TraditionalChinese.message(Message.Build, "建築");
 			TraditionalChinese.message(Message.Burned, "burned");
@@ -221,12 +221,12 @@
 			TraditionalChinese.message(Message.ByWorkingYourselfIntoExhaustion, "因為你處於疲勞過度的狀態");
 			TraditionalChinese.message(Message.Cancel, "取消");
 			TraditionalChinese.message(Message.CannotAddAnyMoreFuel, "你不能加入更多的燃料給 _0_ 。");
-			TraditionalChinese.message(Message.CannotBePerformedOverWater, "This action cannot be performed over water.");
+			TraditionalChinese.message(Message.CannotBePerformedOverWater, "該動作無法在水上執行。");
 			TraditionalChinese.message(Message.CannotBePreserved, "這個物品不能被保鮮。");
 			TraditionalChinese.message(Message.CannotBeReinforced, "_0_ 不能被強化。");
 			TraditionalChinese.message(Message.CannotBeRepaired, "_0_ 不能修復。");
 			TraditionalChinese.message(Message.CannotBeTamed, "_0_ 不能被馴服。");
-			TraditionalChinese.message(Message.CannotBeTransmogrified, "_0_ cannot be transmogrified.");
+			TraditionalChinese.message(Message.CannotBeTransmogrified, "_0_ 不能被附魔。");
 			TraditionalChinese.message(Message.CannotBuildHere, "你不能在這裡建築 _0_ 。");
 			TraditionalChinese.message(Message.CannotDigHere, "你不能在這裡挖掘。");
 			TraditionalChinese.message(Message.CannotDropHere, "你不能在這裡丟棄 _0_ 。");
@@ -265,7 +265,7 @@
 			TraditionalChinese.message(Message.Container, "儲藏");
 			TraditionalChinese.message(Message.Cook, "烹飪");
 			TraditionalChinese.message(Message.Cooked, "烹飪");
-			TraditionalChinese.message(Message.Corpse, "corpse");
+			TraditionalChinese.message(Message.Corpse, "屍體");
 			TraditionalChinese.message(Message.CorruptSaveDetected, "Corrupt save detected. This save may not load properly.");
 			TraditionalChinese.message(Message.CouldNotDecipher, "你不能解析這張地圖。");
 			TraditionalChinese.message(Message.Counterclockwise, "逆時針");
@@ -273,11 +273,11 @@
 			TraditionalChinese.message(Message.Crafted, "合成");
 			TraditionalChinese.message(Message.Crafts, "工藝");
 			TraditionalChinese.message(Message.CreatureAlreadyFullHealth, "_0_ 的生命值是全滿的。");
-			TraditionalChinese.message(Message.CreatureAngered, "angered");
-			TraditionalChinese.message(Message.CreatureAppears, "_0_ appears!");
+			TraditionalChinese.message(Message.CreatureAngered, "憤怒");
+			TraditionalChinese.message(Message.CreatureAppears, "_0_ 出現了！");
 			TraditionalChinese.message(Message.CreatureAppearsHealthy, "這個生物看起來很健康。");
 			TraditionalChinese.message(Message.CreatureAppearsUnhealthy, "這個生物看起來不太健康。");
-			TraditionalChinese.message(Message.CreatureAppeased, "appeased");
+			TraditionalChinese.message(Message.CreatureAppeased, "緩和");
 			TraditionalChinese.message(Message.CreatureIdolAttractedCreature, "這個生物吸引了其他生物。");
 			TraditionalChinese.message(Message.CreatureIsAtPercentHealth, "這個生物有 _0_% 生命值。");
 			TraditionalChinese.message(Message.CreatureLooksBarelyHurt, "這個生物看起來毫無損傷。");
@@ -330,7 +330,7 @@
 			TraditionalChinese.message(Message.DroppedIntoFire, "你丟棄了 _0_ 到火堆裡。");
 			TraditionalChinese.message(Message.DueToDehydration, "由於乾渴難耐 (水分值不足) 。");
 			TraditionalChinese.message(Message.DueToStarvation, "由於飢餓難耐 (飽腹值不足) 。");
-			TraditionalChinese.message(Message.DugTreasureOut, "You dug the treasure out.");
+			TraditionalChinese.message(Message.DugTreasureOut, "你挖出了寶藏。");
 			TraditionalChinese.message(Message.DumpContentsOfContainerInInventory, "你將寶藏挖取出來了。");
 			TraditionalChinese.message(Message.Durability, "耐久度");
 			TraditionalChinese.message(Message.DyingOfDehydration, "你正在處於嚴重的脫水狀態！");
@@ -351,7 +351,7 @@
 			TraditionalChinese.message(Message.FailedToRepair, "你嘗試修復 _0_ ，但是失敗了。");
 			TraditionalChinese.message(Message.FailedToStartFire, "你嘗試生火，但是失敗了。");
 			TraditionalChinese.message(Message.FailedToTame, "你嘗試馴服 _0_　，但是失敗了。");
-			TraditionalChinese.message(Message.FailedToTransmogrify, "你嘗試改變 _0_ 的屬性，但是失敗了。");
+			TraditionalChinese.message(Message.FailedToTransmogrify, "你嘗試改變 _0_ 的外型，但是失敗了。");
 			TraditionalChinese.message(Message.FarAwayFromTreasure, "你離寶藏遠去。");
 			TraditionalChinese.message(Message.Feet, "腳部");
 			TraditionalChinese.message(Message.FeltBurningPainLostHealth, "你處於燃燒狀態！你失去 _0_ 點生命值！");
@@ -390,7 +390,7 @@
 			TraditionalChinese.message(Message.HasBeenHurtByYourTrap, "_0_ 受到了來自你的陷阱的傷害。");
 			TraditionalChinese.message(Message.HasDecayed, "_0_ 已經腐敗了。");
 			TraditionalChinese.message(Message.HasHitYouForDamage, "_0_ 攻擊了你，造成 _1_ 點傷害！ _2_");
-			TraditionalChinese.message(Message.HasSplit, "_0_ has split.");
+			TraditionalChinese.message(Message.HasSplit, "_0_ 已經分裂了。");
 			TraditionalChinese.message(Message.Head, "頭部");
 			TraditionalChinese.message(Message.Held, "左手或右手");
 			TraditionalChinese.message(Message.Help, "幫助");
@@ -410,7 +410,7 @@
 			TraditionalChinese.message(Message.Inspect, "觀察");
 			TraditionalChinese.message(Message.Intermediate, "中級");
 			TraditionalChinese.message(Message.Inventory, "物品");
-			TraditionalChinese.message(Message.ItContains, "It contains _0_.");
+			TraditionalChinese.message(Message.ItContains, "它包含了 _0_ 。");
 			TraditionalChinese.message(Message.ItemInCraftWillBeDestroyed, "無論合成過程是成功還是失敗，合成材料將會被摧毀。你希望繼續嗎？");
 			TraditionalChinese.message(Message.ItsWeightCapacity, "負重能力為 _0_ / _1_ 。");
 			TraditionalChinese.message(Message.Jump, "跳躍");
@@ -437,7 +437,7 @@
 			TraditionalChinese.message(Message.LabelLightSourceWhenLit, "燃燒時的光源：");
 			TraditionalChinese.message(Message.LabelMalignityNegative, "減少的罪惡值：");
 			TraditionalChinese.message(Message.LabelMalignityPlus, "增加的罪惡值：");
-			TraditionalChinese.message(Message.LabelOnEquip, "On Equip: ");
+			TraditionalChinese.message(Message.LabelOnEquip, "正在裝備：");
 			TraditionalChinese.message(Message.LabelPiercingResist, "刺擊抵抗力：");
 			TraditionalChinese.message(Message.LabelRange, "攻擊距離：");
 			TraditionalChinese.message(Message.LabelRanged, "射程：");
@@ -485,7 +485,7 @@
 			TraditionalChinese.message(Message.MissingRequiredMods, "你缺少一或數個必要的模組。");
 			TraditionalChinese.message(Message.ModImportedSaveGame, "模組已匯入至儲存的遊戲。");
 			TraditionalChinese.message(Message.ModLoadError, "讀取模組的過程發生錯誤。可能是因為有一或數個檔案損壞。");
-			TraditionalChinese.message(Message.ModRequiresItself, "This mod requires itself.");
+			TraditionalChinese.message(Message.ModRequiresItself, "這個模組需要自己本身。");
 			TraditionalChinese.message(Message.ModWithNameAlreadyExists, "已發現模組名稱與另一個模組重複，請重新變更名稱。");
 			TraditionalChinese.message(Message.MouseButton, "M_0_");
 			TraditionalChinese.message(Message.MoveAllOfSameQualityToInventory, "移動所有相同品質的物品至身上");
@@ -508,7 +508,7 @@
 			TraditionalChinese.message(Message.NeedFishingNetForTreasure, "你需要漁網以獲得寶藏。");
 			TraditionalChinese.message(Message.NeedToEquipToShoot, "你需要裝備這個物品才能進行射擊。");
 			TraditionalChinese.message(Message.NeedToStartTravelsOutside, "你必須到外面才能開始旅程。");
-			TraditionalChinese.message(Message.NeedWaterForRaft, "You need to be in water to use a raft.");
+			TraditionalChinese.message(Message.NeedWaterForRaft, "你需要在水中使用木筏。");
 			TraditionalChinese.message(Message.No, "否 (No)");
 			TraditionalChinese.message(Message.NoAmmunitionForThatWeapon, "你的物品欄未持有那把武器的彈藥。");
 			TraditionalChinese.message(Message.NoBlackPowderToFireWeapon, "你沒有火藥可以開槍射擊。");
@@ -532,7 +532,7 @@
 			TraditionalChinese.message(Message.NotFacingValidFoodForPreservation, "你沒有面對著有效食物進行防腐。");
 			TraditionalChinese.message(Message.NotFacingValidItemForReinforcement, "你沒有面對著有效物品進行強化");
 			TraditionalChinese.message(Message.NotFacingValidItemForRepair, "你沒有面對著有效物品進行修復。");
-			TraditionalChinese.message(Message.NotFacingValidItemToTransmogrify, "你沒有面對著有效物品進行改變性質。");
+			TraditionalChinese.message(Message.NotFacingValidItemToTransmogrify, "你沒有面對著有效物品進行附魔。");
 			TraditionalChinese.message(Message.NothingHereToCarve, "這裡沒有什麼可以收割的東西。");
 			TraditionalChinese.message(Message.NothingHereToFill, "這裡沒有東西可以裝填 _0_ 。");
 			TraditionalChinese.message(Message.NothingHereToGardenWith, "這裡沒有任何東西可以種植 _0_ 。");
@@ -551,7 +551,7 @@
 			TraditionalChinese.message(Message.NumberThree, "三");
 			TraditionalChinese.message(Message.NumberTwo, "二");
 			TraditionalChinese.message(Message.ObjectIsLocked, "這個物品被鎖上了，你嘗試破壞這個物品以開啟它。");
-			TraditionalChinese.message(Message.Offer, "Offer");
+			TraditionalChinese.message(Message.Offer, "提供");
 			TraditionalChinese.message(Message.Ok, "好的 (OK)");
 			TraditionalChinese.message(Message.OpenDoor, "開門");
 			TraditionalChinese.message(Message.OpenFolderFailed, "無法開啟資料夾，請手動選擇到資料夾。");
@@ -627,7 +627,7 @@
 			TraditionalChinese.message(Message.Slashing, "斬擊");
 			TraditionalChinese.message(Message.Sleeping, "睡覺中");
 			TraditionalChinese.message(Message.SleepInterrupted, "睡覺過程被打斷。");
-			TraditionalChinese.message(Message.Slept, "slept");
+			TraditionalChinese.message(Message.Slept, "睡覺");
 			TraditionalChinese.message(Message.Soil, "泥土");
 			TraditionalChinese.message(Message.SoilWouldHaveNoEffect, "這種土壤不能對這個植物產生效果。");
 			TraditionalChinese.message(Message.SomethingInTheWayOfCarving, "有東西阻礙了你進行收割！");
@@ -635,7 +635,7 @@
 			TraditionalChinese.message(Message.SomethingInTheWayOfDiggingCarveFirst, "有東西阻礙了你進行挖掘。需要先進行收割處理。");
 			TraditionalChinese.message(Message.SomethingInTheWayOfFishing, "有東西阻礙了你進行釣魚！");
 			TraditionalChinese.message(Message.SomethingInTheWayOfGatheringCarveFirst, "有東西阻礙了你進行採集。需要先進行收割處理。");
-			TraditionalChinese.message(Message.SomethingInTheWayOfPerforming, "有東西阻礙了你進行這個動作。");
+			TraditionalChinese.message(Message.SomethingInTheWayOfPerforming, "有東西阻礙了你進行動作。");
 			TraditionalChinese.message(Message.SomethingInTheWayOfPlacing, "有東西阻礙了你放置物品！");
 			TraditionalChinese.message(Message.SomethingInWayOfClosingDoor, "有東西阻礙了你進行關門！");
 			TraditionalChinese.message(Message.SoothedYourBurnInjuries, "你把燒傷醫治好了！");
@@ -686,7 +686,7 @@
 			TraditionalChinese.message(Message.TrampledIntoGround, "_0_ 踩踏了在地上的 _1_ 。");
 			TraditionalChinese.message(Message.TrampleIntoGround, "你踩倒了在地上的 _0_ 。");
 			TraditionalChinese.message(Message.Trampling, "你正在踩蹋 _0_ 。");
-			TraditionalChinese.message(Message.Transmogrified, "You have transmogrified _0_.");
+			TraditionalChinese.message(Message.Transmogrified, "你附魔了 _0_ 。");
 			TraditionalChinese.message(Message.TravelAway, "你確定要準備出發去旅行嗎？你將沒辦法回來這裡。請確認身上所有要帶去旅行的東西！");
 			TraditionalChinese.message(Message.TravelToFarOffLands, "你旅行到遙遠的地方……");
 			TraditionalChinese.message(Message.TreasureIsBlocked, "你發現了寶藏埋藏的地方，但是它被鎖上了。");
@@ -702,7 +702,7 @@
 			TraditionalChinese.message(Message.URLHasOpenedInWebBrowser, "這個連結已經在你的瀏覽器開啟。");
 			TraditionalChinese.message(Message.UsedSoilToIncreaseFertility, "你使用了泥土來增加植物的繁殖能力。");
 			TraditionalChinese.message(Message.UsedToSpeedUpGrowing, "你使用了 _0_ 來加快生長。");
-			TraditionalChinese.message(Message.UsingBareFistsToFight, "using your bare fists to fight");
+			TraditionalChinese.message(Message.UsingBareFistsToFight, "使用你的雙拳戰鬥。");
 			TraditionalChinese.message(Message.UsingBareHands, "使用了你的雙手戰鬥");
 			TraditionalChinese.message(Message.UsingBareHands, "使用了你的雙手採集");
 			TraditionalChinese.message(Message.VersionWarning, `警告！<br /><br />你正在遊玩過舊的版本，可能會發生不可預期的錯誤。你可能需要刪除所有的存檔。</span>`);
@@ -1144,7 +1144,7 @@
 			TraditionalChinese.itemGroup(ItemTypeGroup.Tinder, "", "火種", "");
 			TraditionalChinese.itemGroup(ItemTypeGroup.Tongs, "", "鉗");
 			TraditionalChinese.itemGroup(ItemTypeGroup.Tool, "", "工具");
-			TraditionalChinese.itemGroup(ItemTypeGroup.Transmogrify, "a ", "transmogrify", " item");
+			TraditionalChinese.itemGroup(ItemTypeGroup.Transmogrify, "", "附魔", "");
 			TraditionalChinese.itemGroup(ItemTypeGroup.Trap, "", "陷阱");
 			TraditionalChinese.itemGroup(ItemTypeGroup.Travel, "", "旅行", "");
 			TraditionalChinese.itemGroup(ItemTypeGroup.Treasure, "", "寶藏");
@@ -1155,7 +1155,7 @@
 			TraditionalChinese.itemGroup(ItemTypeGroup.Weapon, "", "武器");
 
 			// Doodads
-			TraditionalChinese.doodad(DoodadType.Acid, "", "acid", "A neon-green ooze; boiling and bubbling into the ground.");
+			TraditionalChinese.doodad(DoodadType.Acid, "", "綠色酸液", "A neon-green ooze; boiling and bubbling into the ground.");
 			TraditionalChinese.doodad(DoodadType.BarePalmTree, "", "光禿禿的棕櫚樹", "A tall palm tree stripped of its leaves.");
 			TraditionalChinese.doodad(DoodadType.BareTree, "", "光禿禿的樹", "A tree stripped of most of its leaves and branches.");
 			TraditionalChinese.doodad(DoodadType.BerryBush, "", "漿果灌木叢", "A small bush, bearing small amounts berries.");
@@ -1167,7 +1167,7 @@
 			TraditionalChinese.doodad(DoodadType.ClayKiln, "", "黏土製焢窯", "A high-temperature fire enclosure made from clay.");
 			TraditionalChinese.doodad(DoodadType.ClayWaterStill, "", "黏土製淨水蒸餾裝置", "A clay water still, ready to be lit to desalinate water.");
 			TraditionalChinese.doodad(DoodadType.Cotton, "", "棉花", "A white and fluffy cotton plant, ready to be harvested.");
-			TraditionalChinese.doodad(DoodadType.CreatureIdol, "a ", "creature idol", "An odd mass of organs. A humm emanates from it, attracting creatures.");
+			TraditionalChinese.doodad(DoodadType.CreatureIdol, "", "生物雕像", "An odd mass of organs. A humm emanates from it, attracting creatures.");
 			TraditionalChinese.doodad(DoodadType.DeadBush, "", "死亡的灌木叢", "A sparse, dried out mass of branches.");
 			TraditionalChinese.doodad(DoodadType.GrowingGrass, "", "生長中的草", "A small mound of growing grass.");
 			TraditionalChinese.doodad(DoodadType.GrowingMushroom, "", "生長中的蘑菇", "A batch of small growing mushrooms.");
@@ -1246,7 +1246,7 @@
 			TraditionalChinese.use(ActionType.Attack, "攻擊", "");
 			TraditionalChinese.use(ActionType.Build, "建築", "Attempt to construct or assemble the item on the tile you are facing towards.");
 			TraditionalChinese.use(ActionType.Carve, "收割", "Used to carve creature corpses or to remove objects attached to the ground.");
-			TraditionalChinese.use(ActionType.Cast, "Cast", "Find a fish in a body of water and attempt to cast your line or net to catch it.");
+			TraditionalChinese.use(ActionType.Cast, "釣魚", "Find a fish in a body of water and attempt to cast your line or net to catch it.");
 			TraditionalChinese.use(ActionType.Decode, "解析地圖", "Used for attempting to read the map. Use by the treasure location to reveal how far or close you are.");
 			TraditionalChinese.use(ActionType.Dig, "挖掘", "Used to dig up resources and items from the ground.");
 			TraditionalChinese.use(ActionType.Disassemble, "Disassemble", "");
@@ -1256,10 +1256,10 @@
 			TraditionalChinese.use(ActionType.DrinkCure, "飲用藥水", "Consumed on use. Used to cure poisoning while sometimes providing other health benefits.");
 			TraditionalChinese.use(ActionType.Eat, "食用", "Consumed on use. May provide benefits to hunger, thirst, health and stamina; however, may reduce them as well depending on the food.");
 			TraditionalChinese.use(ActionType.Extinguish, "撲滅/熄滅", "Douse the torch, extinguishing the flame.");
-			TraditionalChinese.use(ActionType.Fire, "Fire", "Using a mixture of black powder along with a bullet, you may fire this weapon.");
+			TraditionalChinese.use(ActionType.Fire, "開火", "Using a mixture of black powder along with a bullet, you may fire this weapon.");
 			TraditionalChinese.use(ActionType.Garden, "施肥", "Use on a plant to increase its fertility. Can only be used on some plant types.");
 			TraditionalChinese.use(ActionType.Gather, "採集", "Can be used directly to gather from an adjacent resource tile. Equipping this allows it to be automatically used when walking into resource tiles.");
-			TraditionalChinese.use(ActionType.GatherTreasure, "Gather Treasure", "Attempt to gather a treasure in the vicinity of use based on a decoded treasure map. Range of gather is dependent on your mining skill.");
+			TraditionalChinese.use(ActionType.GatherTreasure, "收集寶藏", "Attempt to gather a treasure in the vicinity of use based on a decoded treasure map. Range of gather is dependent on your mining skill.");
 			TraditionalChinese.use(ActionType.GatherWater, "採集水", "Used to gather water into the item.");
 			TraditionalChinese.use(ActionType.Heal, "治療", "Consumed on use. Used to restore a varied amount of health.");
 			TraditionalChinese.use(ActionType.HealCreature, "治療生物", "Consumed on use. Used to restore a varied amount of health to a creature.");
@@ -1267,8 +1267,8 @@
 			TraditionalChinese.use(ActionType.LockPick, "解鎖", "Used to unlock locked objects.");
 			TraditionalChinese.use(ActionType.Open, "開啟", "Consumed on use. Using this will open it, providing new and unknown items.");
 			TraditionalChinese.use(ActionType.OpenContainer, "開啟儲藏箱", "Using this will open it where you may drag and drop items to and from. Weight reduction and decay reduction bonuses may apply to items inside.");
-			TraditionalChinese.use(ActionType.Paddle, "Paddle", "Used to travel over water without getting your feet wet. Your speed is not reduced in water while paddling.");
-			TraditionalChinese.use(ActionType.Pet, "Pet", "");
+			TraditionalChinese.use(ActionType.Paddle, "划槳", "Used to travel over water without getting your feet wet. Your speed is not reduced in water while paddling.");
+			TraditionalChinese.use(ActionType.Pet, "撫摸", "");
 			TraditionalChinese.use(ActionType.Pickup, "撿拾", "");
 			TraditionalChinese.use(ActionType.Plant, "種植", "Attempts to plant the item on the tile you are facing towards. Some plants may require certain ground types or conditions to be planted.");
 			TraditionalChinese.use(ActionType.Pour, "傾倒", "Pour on fire to extinguish the flames, pour inside a water still to begin water filtration, pour on a suitable plant to increase its health, or just simply empty out.");
@@ -1279,22 +1279,22 @@
 			TraditionalChinese.use(ActionType.Release, "放生", "");
 			TraditionalChinese.use(ActionType.Repair, "修理", "Use while facing a damaged item to attempt to repair it. Success based on skill used to make the item.");
 			TraditionalChinese.use(ActionType.Rest, "休息", "Used to rest for a period of time to regain health and stamina. You will stop resting when reaching full stamina.");
-			TraditionalChinese.use(ActionType.RubClockwise, "Rub Clockwise", "Rubbing this item manifests its effects to the holder.");
-			TraditionalChinese.use(ActionType.RubCounterclockwise, "Rub Counterclockwise", "Rubbing this item manifests its effects to the holder.");
-			TraditionalChinese.use(ActionType.SailToCivilization, "Sail To Civilization", "After collecting all the pieces of treasure, you can return to civilization and bask in the glory of your riches and fame. You can always return back to these lands afterwards.");
+			TraditionalChinese.use(ActionType.RubClockwise, "以順時針方向擦拭", "Rubbing this item manifests its effects to the holder.");
+			TraditionalChinese.use(ActionType.RubCounterclockwise, "以逆時針方向擦拭", "Rubbing this item manifests its effects to the holder.");
+			TraditionalChinese.use(ActionType.SailToCivilization, "航向文明世界", "After collecting all the pieces of treasure, you can return to civilization and bask in the glory of your riches and fame. You can always return back to these lands afterwards.");
 			TraditionalChinese.use(ActionType.SetDown, "鋪地", "Using this item will place it on top of whatever tile is present in your facing direction. This is different than just dropping the item. It can also be used to extinguish fires.");
 			TraditionalChinese.use(ActionType.Shoot, "射擊", "You can shoot arrows with this item.");
 			TraditionalChinese.use(ActionType.Sleep, "睡覺", "Used to sleep for a period of time to regain health and stamina. Duration is based on camping skill and time of day. A bonus to all effects (including length) will be granted if facing a fire or lit object. Hunger and dehydration increases slower while sleeping.");
-			TraditionalChinese.use(ActionType.Sling, "Sling", "You can sling bullets with this item.");
-			TraditionalChinese.use(ActionType.Squeeze, "Squeeze", "Consumed on use. Spews a stream of fire in your facing direction.");
+			TraditionalChinese.use(ActionType.Sling, "拋擲", "You can sling bullets with this item.");
+			TraditionalChinese.use(ActionType.Squeeze, "噴火", "Consumed on use. Spews a stream of fire in your facing direction.");
 			TraditionalChinese.use(ActionType.StartFire, "生火", "Used to start a fire. Use on campfires, furnaces, etc. to light them or on an empty tile. Using this action may require kindling, tinder and a fuel item in your inventory depending on the circumstance.");
 			TraditionalChinese.use(ActionType.StokeFire, "添火", "Used on a fire source to increase the strength of the flame.");
 			TraditionalChinese.use(ActionType.Tame, "馴服", "");
-			TraditionalChinese.use(ActionType.Teleport, "Teleport", "With a flick of the wand, teleport to a location in front of where you are facing.");
+			TraditionalChinese.use(ActionType.Teleport, "傳送", "With a flick of the wand, teleport to a location in front of where you are facing.");
 			TraditionalChinese.use(ActionType.TellTime, "報時", "Used to measure the time of day or night.");
 			TraditionalChinese.use(ActionType.Throw, "投擲", "");
-			TraditionalChinese.use(ActionType.Transmogrify, "Transmogrify", "Use while facing an equippable item to attempt to infuse with magical properties.");
-			TraditionalChinese.use(ActionType.TraverseTheSea, "Traverse the Sea", "Used to travel to new, unexplored lands, leaving behind your current surroundings.");
+			TraditionalChinese.use(ActionType.Transmogrify, "附魔", "Use while facing an equippable item to attempt to infuse with magical properties.");
+			TraditionalChinese.use(ActionType.TraverseTheSea, "橫渡海洋", "Used to travel to new, unexplored lands, leaving behind your current surroundings.");
 
 			// Terrain/tiles
 			TraditionalChinese.terrain(TerrainType.Ash, "", "灰燼");
@@ -1343,7 +1343,7 @@
 			TraditionalChinese.onEquipType(OnEquipType.Telescopy, "Telescopy");
 
 			// Creatures
-			TraditionalChinese.creature(CreatureType.AcidSpitterDemon, "an ", "acid spitter demon", "A small, but fierce demonic-looking creature with sharp claws. Appears to spit an acidic fluid.");
+			TraditionalChinese.creature(CreatureType.AcidSpitterDemon, "", "酸性分裂怪", "A small, but fierce demonic-looking creature with sharp claws. Appears to spit an acidic fluid.");
 			TraditionalChinese.creature(CreatureType.Bear, "", "熊", "A hulking carnivorous mammal attracted to your scent. A deadly foe without protection.");
 			TraditionalChinese.creature(CreatureType.Blindfish, "", "無眼魚", "A cave-dwelling, sightless fish. Hard to see in detail within the murky depths.");
 			TraditionalChinese.creature(CreatureType.Bogling, "", "沼澤人型怪", "A foul, sulphurous-smelling writhing mass of vegetation, seemingly animated and alive.");
@@ -1370,7 +1370,7 @@
 			TraditionalChinese.creature(CreatureType.Skeleton, "", "骷髏", "An animated pile of human, or human-like bones.");
 			TraditionalChinese.creature(CreatureType.Slime, "", "史萊姆", "A bouncing globule of animated gelatin. It isn't aware of your stirring.");
 			TraditionalChinese.creature(CreatureType.Snake, "", "蛇", "A slithering, poisonous reptile. Appears ambivalent to your encroachment.");
-			TraditionalChinese.creature(CreatureType.TimeSkitter, "a ", "time skitter", "An unusual spider-like creature that appears to be able to move through solid objects and move at incredible speeds.");
+			TraditionalChinese.creature(CreatureType.TimeSkitter, "", "時空蜥蜴", "An unusual spider-like creature that appears to be able to move through solid objects and move at incredible speeds.");
 			TraditionalChinese.creature(CreatureType.TrapdoorSpider, "", "暗影蜘蛛", "A large spider that appeared from an underground dwelling as you stumbled over it.");
 			TraditionalChinese.creature(CreatureType.VampireBat, "", "吸血蝙蝠", "A flying mammal with large rubbery wings. Appears to have a penchant for human blood.");
 			TraditionalChinese.creature(CreatureType.Zombie, "", "殭屍", "A slow, but strong foul-smelling undead or diseased human. Appears to dislike the sun.");
@@ -1414,7 +1414,7 @@
 			TraditionalChinese.milestone(MilestoneType.Abnormalizer, "狩魔獵人", "Killed 25 aberrant creatures.");
 			TraditionalChinese.milestone(MilestoneType.Chef, "廚藝大師", "Cooked 25 food items.");
 			TraditionalChinese.milestone(MilestoneType.Crafter, "工藝大師", "Crafted 250 items.");
-			TraditionalChinese.milestone(MilestoneType.Extincteur, "殺戮者", "Killed 1000 creatures.");
+			TraditionalChinese.milestone(MilestoneType.Extincteur, "殺戮王者", "Killed 1000 creatures.");
 			TraditionalChinese.milestone(MilestoneType.Gardener, "專業農夫", "Planted 50 plants or mushrooms.");
 			TraditionalChinese.milestone(MilestoneType.Gatherer, "拾荒老人", "Gathered 1000 times.");
 			TraditionalChinese.milestone(MilestoneType.Hunter, "狩獵大師", "Killed 100 creatures.");
@@ -1424,16 +1424,16 @@
 			TraditionalChinese.milestone(MilestoneType.Thrower, "刺客教條", "Thrown 500 items.");
 			TraditionalChinese.milestone(MilestoneType.Trapper, "陷阱大師", "Injured 10 creatures with traps.");
 			TraditionalChinese.milestone(MilestoneType.TreasureHunter, "寶藏獵人", "Dug or fished up 10 treasure chests.");
-			TraditionalChinese.milestone(MilestoneType.Collector, "收藏家！", "Collected one of every item.");
-			TraditionalChinese.milestone(MilestoneType.Explorer, "探險王！", "Stepped on or gathered from every type of tile.");
+			TraditionalChinese.milestone(MilestoneType.Collector, "收藏專家", "Collected one of every item.");
+			TraditionalChinese.milestone(MilestoneType.Explorer, "探險學家", "Stepped on or gathered from every type of tile.");
 			TraditionalChinese.milestone(MilestoneType.Grandmaster, "多才多藝", "Raised a skill to 100%.");
 			TraditionalChinese.milestone(MilestoneType.Prepared, "全副武裝", "Equipped something in each equipment slot.");
 			TraditionalChinese.milestone(MilestoneType.Doctor, "權威醫師", "Cured each status effect.");
-			TraditionalChinese.milestone(MilestoneType.Artificer, "藝術大師", "Transmogrified an item.");
-			TraditionalChinese.milestone(MilestoneType.Seafarer, "威爾森！", "Sailed to civilization and completed the game.");
+			TraditionalChinese.milestone(MilestoneType.Artificer, "附魔大師", "Transmogrified an item.");
+			TraditionalChinese.milestone(MilestoneType.Seafarer, "旅途終章", "Sailed to civilization and completed the game.");
 			TraditionalChinese.milestone(MilestoneType.Navigator, "探索秘境", "Traversed the seas in search of new lands.");
-			TraditionalChinese.milestone(MilestoneType.DragonSlayer, "屠龍者！", "Slayed a drake.");
-			TraditionalChinese.milestone(MilestoneType.Treasurer, "占為己有", "Collected every one of the five types of treasure.");
+			TraditionalChinese.milestone(MilestoneType.DragonSlayer, "屠龍王者", "Slayed a drake.");
+			TraditionalChinese.milestone(MilestoneType.Treasurer, "賞金獵人", "Collected every one of the five types of treasure.");
 			TraditionalChinese.milestone(MilestoneType.Pulchritudinous, "眾神之王", "Equipped a legendary item in each equipment slot.");
 
 			// Hints
@@ -1454,11 +1454,11 @@
 			TraditionalChinese.hint(HintType.ConsumingBadThings, "吃到不健康的東西了！", "Ow! Not all edible/drinkable objects should be consumed, at least not without facing the consequences. On the other hand, sometimes it's worth the risk to gain its other effects. Consuming bad things can sometimes result in poisoning.");
 			TraditionalChinese.hint(HintType.FastPickup, "快速撿拾", "You have just picked up an item from the ground. Sometimes there are multiple items on a tile. Pressing the spacebar or clicking on your character will gather items underneath you without moving.");
 			TraditionalChinese.hint(HintType.Bugs, "臭蟲 (BUGS)！", "Did you find an error? Would you kindly let us know about what happened, so that we may seek to stop this from happening to other players? You can do so by posting the issue in the <a target=\"_blank\" href=\"http://steamcommunity.com/app/379210/discussions/1/\">Steam Discussions Bug Reports forum</a>.");
-			TraditionalChinese.hint(HintType.HeldItems, "Held Items", "Your left and right hand equipment slots are interchangeable. You can equip two weapons, two tools, two shields or any combination in between. Be careful of damaging useful equipment such as torches or shields while gathering or attacking. Make sure to always equip another weapon or tool in the other hand if you want to use it to attack or gather over damaging an equipped torch. You attack with both hands in combat, so it's important to equip both your hands if possible.");
+			TraditionalChinese.hint(HintType.HeldItems, "手持裝備", "Your left and right hand equipment slots are interchangeable. You can equip two weapons, two tools, two shields or any combination in between. Be careful of damaging useful equipment such as torches or shields while gathering or attacking. Make sure to always equip another weapon or tool in the other hand if you want to use it to attack or gather over damaging an equipped torch. You attack with both hands in combat, so it's important to equip both your hands if possible.");
 			TraditionalChinese.hint(HintType.Milestones, "里程碑", "Milestones are personalized goals and achievements. Each playthrough, you are given an amount to either discover or work towards. Milestones are saved after each playthrough or death. The more you have completed, the more starting skill and stat points you get, as well as more starting items.");
 			TraditionalChinese.hint(HintType.Burned, "燒傷狀態", "Lasting burn injuries and pain can be caused from stepping in an open flame without protection, or possibly other sources. Pouring liquid on yourself will soothe the injuries and pain. Alternatively, you can also take a swim in deep water. Keep swimming until the effect subsides. Being burned will stop you from regenerating health and can last awhile if untreated.");
 			TraditionalChinese.hint(HintType.Crafting, "工藝", "Crafting is simple, but has many rules!<br /><br />When hovering over an item in the crafting window, you will see which items will be used in the craft through a highlighted border that will appear around items in your inventory. You will also notice that you will use the first instance of a required item. Simply drag around the order of items in your inventory or use the sort to use different items in the craft.<br /><br />Using items in a craft that have lower durability will affect the crafted item's durability. Additionally, using remarkable, exceptional or legendary items in a craft increases your chances to craft such an item. Decayable items (such as food) also gain decay bonuses from using higher quality items in the craft.<br /><br />You can find new crafting recipes by gathering the required items in your inventory and by finding old instructional scrolls.");
-			TraditionalChinese.hint(HintType.Encumberance, "Encumberance", "The first level of encumberance will slow down your movement and reduce stamina regeneration. The second level, \"overburdened\" will physically hurt you as you will begin to take damage while trying to move. You can drop items from your inventory by right clicking, through the item's menu, or by dragging and dropping them on to the game screen.");
+			TraditionalChinese.hint(HintType.Encumberance, "負重值", "The first level of encumberance will slow down your movement and reduce stamina regeneration. The second level, \"overburdened\" will physically hurt you as you will begin to take damage while trying to move. You can drop items from your inventory by right clicking, through the item's menu, or by dragging and dropping them on to the game screen.");
 			TraditionalChinese.hint(HintType.DailyChallengeMode, "每日挑戰模式", "Daily challenge mode is an extra difficult game mode with some unique game rules to add an extra challenge for skilled players. You can expect more creatures, a harder beginning of the game, and more. You cannot save your game in this mode. The world and randomization is unique per day, allowing multiple players to play in the same set of circumstances.");
 			TraditionalChinese.hint(HintType.MovingItems, "移動物品", "There are many ways to organize and move items in Wayward<br /><br />1. Dragging and dropping: You can drag and drop items into a container window, quickslot, equipment slot, or directly on to the ground, by dragging it to the desired location. Dragging and dropping to the game screen will drop it in front of you, or inside a chest if you are facing one. Holding Shift while dragging will drag/drop all items of the same type<br />2. From the item's menu. Left clicking an item will display the item's menu with options to \"Drop/Drop All\", or if you have a container window open, will present you the option to \"Move/Move All\". If you click an item that has a special quality, additional options will be visible to Drop/Move all of the same quality.<br />3. Right clicking/dropping. You can right click any item in your inventory to drop it in front of you. This will automatically drop it into a chest if you are facing one. Holding shift while you right click will drop all of the same type.<br /><br />Note: You can change the default drop direction from the facing tile to underneath your character in the game's option menu.");
 			TraditionalChinese.hint(HintType.CraftingFailure, "合成失敗", "All crafts in Wayward have a skill level assosiated with them. Hovering over each craft will reveal the item's craft skill level. These levels going from easiest to harder are: simple, intermediate, advanced, and expert.<br /><br />Trying to craft an item with a higher skill level than your own crafting skill can sometimes result in failure. Your chance to successfully craft the item raises as your skills increase. If the item's skill level appears in orange, you will have a low chance at success for crafting that item. Each unsucessful attempt at crafting will reduce the durability of each item involved in the craft.");
