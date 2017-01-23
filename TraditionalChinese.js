@@ -4,7 +4,6 @@
 		onInitialize() {
 			let TraditionalChinese = new Languages.Language("TraditionalChinese (繁體中文)");
 			
-			// UI
 			TraditionalChinese.ui(Languages.UiTranslation.Bleeding, "流血");
 			TraditionalChinese.ui(Languages.UiTranslation.Burned, "燒傷");
 			TraditionalChinese.ui(Languages.UiTranslation.DisableHints, "關閉提示");
@@ -131,8 +130,8 @@
 			TraditionalChinese.ui(Languages.UiTranslation.OptionsWarnWhenBreakingItems, "物品毀壞提醒");
 			TraditionalChinese.ui(Languages.UiTranslation.OptionsWarnWhenBreakingItemsTooltip, "如果勾選這個選項，在可能因為合成失敗而造成合成材料毀壞時，會冒出警告視窗以提醒。");
 			TraditionalChinese.ui(Languages.UiTranslation.OptionsWindowedMode, "視窗化模式");
-			TraditionalChinese.ui(Languages.UiTranslation.OptionsWorldTooltips, "快速觀看物件資訊");
-			TraditionalChinese.ui(Languages.UiTranslation.OptionsWorldTooltipsTooltip, "如果勾選這個選項，你可以使用滑鼠停在環境物件上，以觀看物件資訊，而不需要透過鍵盤使用「觀看」動作。");
+			TraditionalChinese.ui(Languages.UiTranslation.OptionsWorldTooltips, "快速觀看物體資訊");
+			TraditionalChinese.ui(Languages.UiTranslation.OptionsWorldTooltipsTooltip, "如果勾選這個選項，你可以使用滑鼠停在地面上的物體，以觀看物體資訊，而不需要透過鍵盤使用「觀看」動作。");
 			TraditionalChinese.ui(Languages.UiTranslation.OptionsZoomIn, "拉近視野");
 			TraditionalChinese.ui(Languages.UiTranslation.OptionsZoomOnScroll, "滑鼠滾輪縮放");
 			TraditionalChinese.ui(Languages.UiTranslation.OptionsZoomOnScrollTooltip, "如果勾選這個選項，你可以透過滑鼠滾輪，以拉近或拉遠視野。");
@@ -166,12 +165,6 @@
 			TraditionalChinese.ui(Languages.UiTranslation.WindowTitleOptions, "選項");
 			TraditionalChinese.ui(Languages.UiTranslation.WindowTitleSkills, "技能");
 
-			// Messages
-			// NOTE: Style guide
-			// No contractions for in-game messages (other UI/dialogs can use them)
-			// Past tense for all messages that appear when/during taking a turn
-			// Present tense for all messages that appear when no turn is passed
-			// For the style guide of the enum names, check enums.ts
 			TraditionalChinese.message(Message.AberrantCreatureDroppedItem, "奇蹟發生了，這個奇怪的生物掉落了 _0_ 。");
 			TraditionalChinese.message(Message.AboutHours, "你在 _0_ 過程進行了大約 _1_ _2_ 。");
 			TraditionalChinese.message(Message.AddedFuelToFire, "你添加燃料給營火，這個火勢已經增強了。");
@@ -522,7 +515,7 @@
 			TraditionalChinese.message(Message.NoNeedToStokeFire, "不需要點火它。");
 			TraditionalChinese.message(Message.NoRoomForImprovement, "_0_ 沒有需要改良的空間了。");
 			TraditionalChinese.message(Message.NoRoomToDrop, "這裡沒有空間可以丟棄物品了。");
-			TraditionalChinese.message(Message.NotAvailable, "N/A");
+			TraditionalChinese.message(Message.NotAvailable, "N/A"); // 不需要翻譯
 			TraditionalChinese.message(Message.NotEnoughFoodToTravel, "你沒有足夠的 _0_ 以進行長途旅程。");
 			TraditionalChinese.message(Message.NotEnoughPurifiedWaterYet, "這裡沒有足夠的乾淨的水可以使用。");
 			TraditionalChinese.message(Message.NotEnoughStrengthToThrow, "你沒有足夠的體力投擲這個物品！");
@@ -773,7 +766,6 @@
 			TraditionalChinese.message(Message.YouUnequip, "你卸下了 _0_ 。");
 			TraditionalChinese.message(Message.YouUsed, "你使用了 _0_ 。");
 
-			// Items
 			TraditionalChinese.item(ItemType.Acorn, "", "橡果", "A hard tree nut with a cupule that can grow into a sapling when planted.");
 			TraditionalChinese.item(ItemType.Amber, "", "琥珀", "Fossilized tree resin. Can be melted down to reinforce items.");
 			TraditionalChinese.item(ItemType.AnimalClaw, "", "動物爪", "A sharp claw from an animal. A perfect animal by-product for using as a needle.");
@@ -843,17 +835,17 @@
 			TraditionalChinese.item(ItemType.CottonBedroll, "", "棉製睡袋", "A soft and downy sleeping mattress, rolled up for ease of carrying. Can be used to sleep or rest very comfortably.");
 			TraditionalChinese.item(ItemType.CottonFabric, "", "棉織物", "A soft piece of cloth spun from cotton.");
 			TraditionalChinese.item(ItemType.CottonSeeds, "", "棉花種子", "Unopened, plantable cotton seeds, not yet revealing their white, soft interiors.");
-			TraditionalChinese.item(ItemType.CreatureIdol, "a ", "creature idol", "A mass of animal organs, crudely shaped into some kind of figure. It smells awful and emits an odd humming noise, and appears to attract creatures.");
+			TraditionalChinese.item(ItemType.CreatureIdol, "", "生物雕像", "A mass of animal organs, crudely shaped into some kind of figure. It smells awful and emits an odd humming noise, and appears to attract creatures.");
 			TraditionalChinese.item(ItemType.Deadfall, "", "落石陷阱", "A large, flat rock, propped up with a stick. Once set, anything that triggers it will be crushed or injured from the falling rock.");
 			TraditionalChinese.item(ItemType.DrawnMap, "", "已繪製的地圖", "A paper sheet, scrawled with geographical landmarks and features. Used to approximate a location when read.");
 			TraditionalChinese.item(ItemType.Earthworm, "", "蚯蚓", "A live wriggling insect, effective for bait or eating on its own.");
-			TraditionalChinese.item(ItemType.Ectoplasm, "", "ectoplasm", "A ghostly, weightless fluff of misty goo, strangely self contained and quickly evaporating.");
+			TraditionalChinese.item(ItemType.Ectoplasm, "", "幽魂", "A ghostly, weightless fluff of misty goo, strangely self contained and quickly evaporating.");
 			TraditionalChinese.item(ItemType.Egg, "", "蛋", "A brown colored egg, laid by a chicken. Can be eaten as is, or cooked for a tastier meal.");
 			TraditionalChinese.item(ItemType.ExplosiveTrap, "", "爆炸陷阱", "A mound of leaves used to conceal a volatile explosive powder. Stepping on it will trigger a small explosion.");
 			TraditionalChinese.item(ItemType.Feather, "", "羽毛", "Some bright white plumage from an avian creature.");
 			TraditionalChinese.item(ItemType.FeatherBedroll, "", "羽毛製睡袋", "A bedroll made with soft feathers and wrapped in fabric. Used for resting and sleeping in comfort.");
 			TraditionalChinese.item(ItemType.FertileSoil, "", "肥沃的土壤", "A rich soil suitable for adding to plants to promote their fertility.");
-			TraditionalChinese.item(ItemType.FireBladder, "a ", "fire bladder", "An oddly shaped organ from a firebreathing creature. Hot to the touch; it appears to contain a deadly chemical reaction inside.");
+			TraditionalChinese.item(ItemType.FireBladder, "", "火囊怪", "An oddly shaped organ from a firebreathing creature. Hot to the touch; it appears to contain a deadly chemical reaction inside.");
 			TraditionalChinese.item(ItemType.FirePlough, "", "火犁 (生火工具)", "A fire making device which uses a stick and groove method to create heat through friction.");
 			TraditionalChinese.item(ItemType.FishingNet, "", "魚網", "A checkered weave of string with weights on each corner, used to trap and catch fish.");
 			TraditionalChinese.item(ItemType.FishingRod, "", "釣竿", "A flexible, smooth wooden rod with a string line and sharpened hook. Used for fly fishing.");
@@ -874,7 +866,7 @@
 			TraditionalChinese.item(ItemType.GoldenChalice, "", "黃金聖杯", "A large, ornate, and resplendent chalice.");
 			TraditionalChinese.item(ItemType.GoldenKey, "", "黃金鑰匙", "A large and decorative key forged from gold.");
 			TraditionalChinese.item(ItemType.GoldenRing, "", "黃金戒指", "A golden ring, most likely used as a sign of wealth and power.");
-			TraditionalChinese.item(ItemType.GoldenSword, "a ", "黃金劍", "An ornate, but soft sword, forged from solid gold. Not suitable for combat due to its softness.");
+			TraditionalChinese.item(ItemType.GoldenSword, "", "黃金劍", "An ornate, but soft sword, forged from solid gold. Not suitable for combat due to its softness.");
 			TraditionalChinese.item(ItemType.GrassBlades, "", "草葉", "Long and almost sharp to the touch. These semi-dried grass blades are perfect for cordage, string making, and tinder when dried.");
 			TraditionalChinese.item(ItemType.GrassSeeds, "", "草籽", "Small dried grass seeds. Can be planted to grow grass.");
 			TraditionalChinese.item(ItemType.GreenSand, "", "綠色沙子", "A form of malleable sand made with clay, used to make molds for metal casting.");
@@ -936,7 +928,7 @@
 			TraditionalChinese.item(ItemType.Nopal, "", "仙人掌 (nopal)", "A de-spined cactus fruit, filled with refreshing liquid and nutrition.");
 			TraditionalChinese.item(ItemType.Offal, "", "內臟 (Offal)", "A mound of organs, tissue, and other undesirable portions of an unlucky animal.");
 			TraditionalChinese.item(ItemType.OldInstructionalScroll, "", "古老的卷軸", "A tattered sheet of paper with some roughly scribbled instructions and diagrams.");
-			TraditionalChinese.item(ItemType.OrbOfMalign, "an ", "orb of malign", "A strange spherical orb that gives off a shimmering radiance on your touch. It appears to hum as you hold it.");
+			TraditionalChinese.item(ItemType.OrbOfMalign, "", "邪惡寶珠", "A strange spherical orb that gives off a shimmering radiance on your touch. It appears to hum as you hold it.");
 			TraditionalChinese.item(ItemType.OrnateCape, "", "華麗的斗篷", "A red and gold stitched cape, which drapes the back and fastens at the neck. Worn as a status symbol.");
 			TraditionalChinese.item(ItemType.OrnateWoodenChest, "", "華麗的木製儲藏箱", "A decorative wooden container gilded with symbols inlaid into the wood.");
 			TraditionalChinese.item(ItemType.PalmLeaf, "", "棕櫚葉", "A large leaf from a palm tree. The strong inner fibers of the leaf are perfect for cordage.");
@@ -1091,7 +1083,6 @@
 			TraditionalChinese.item(ItemType.WroughtIronSword, "", "熟鐵劍", "A long, sharpened blade fitted into a solid hilt and forged from wrought iron. A good, strong weapon.");
 			TraditionalChinese.item(ItemType.WroughtIronTongs, "", "熟鐵鉗", "A pair of tongs, forged from wrought iron. Used to lift hot objects without injury.");
 
-			// Groups
 			TraditionalChinese.itemGroup(ItemTypeGroup.Anvil, "", "砧");
 			TraditionalChinese.itemGroup(ItemTypeGroup.Arrow, "", "箭矢");
 			TraditionalChinese.itemGroup(ItemTypeGroup.Bedding, "", "寢具", "");
@@ -1133,7 +1124,7 @@
 			TraditionalChinese.itemGroup(ItemTypeGroup.Preservative, "", "防腐劑");
 			TraditionalChinese.itemGroup(ItemTypeGroup.Pulp, "", "碎屑", "");
 			TraditionalChinese.itemGroup(ItemTypeGroup.RawMeat, "", "新鮮的肉", "");
-			TraditionalChinese.itemGroup(ItemTypeGroup.Reinforce, "a ", "強化", "");
+			TraditionalChinese.itemGroup(ItemTypeGroup.Reinforce, "", "強化", "");
 			TraditionalChinese.itemGroup(ItemTypeGroup.Repair, "", "修復工具", "");
 			TraditionalChinese.itemGroup(ItemTypeGroup.Rock, "", "石頭");
 			TraditionalChinese.itemGroup(ItemTypeGroup.Seed, "", "種子");
@@ -1154,7 +1145,6 @@
 			TraditionalChinese.itemGroup(ItemTypeGroup.WaterStill, "", "淨水蒸餾裝置");
 			TraditionalChinese.itemGroup(ItemTypeGroup.Weapon, "", "武器");
 
-			// Doodads
 			TraditionalChinese.doodad(DoodadType.Acid, "", "綠色酸液", "A neon-green ooze; boiling and bubbling into the ground.");
 			TraditionalChinese.doodad(DoodadType.BarePalmTree, "", "光禿禿的棕櫚樹", "A tall palm tree stripped of its leaves.");
 			TraditionalChinese.doodad(DoodadType.BareTree, "", "光禿禿的樹", "A tree stripped of most of its leaves and branches.");
@@ -1235,21 +1225,19 @@
 			TraditionalChinese.doodad(DoodadType.WroughtIronChest, "", "熟鐵製儲藏箱", "A large chest, used for storage and keeping edibles fresher.");
 			TraditionalChinese.doodad(DoodadType.YellowFlowers, "", "黃花", "A grouping of bright yellow flowers.");
 
-			// Doodad groups
 			TraditionalChinese.doodadGroup(DoodadTypeGroup.LitCampfire, "", "燃燒的營火");
 			TraditionalChinese.doodadGroup(DoodadTypeGroup.LitFurnace, "", "燃燒的熔爐");
 			TraditionalChinese.doodadGroup(DoodadTypeGroup.LitKiln, "", "燃燒的焢窯");
 			TraditionalChinese.doodadGroup(DoodadTypeGroup.LitWaterStill, "", "燃燒的淨水蒸餾裝置");
 			TraditionalChinese.doodadGroup(DoodadTypeGroup.Anvil, "", "砧");
 
-			// Uses
 			TraditionalChinese.use(ActionType.Attack, "攻擊", "");
 			TraditionalChinese.use(ActionType.Build, "建築", "Attempt to construct or assemble the item on the tile you are facing towards.");
 			TraditionalChinese.use(ActionType.Carve, "收割", "Used to carve creature corpses or to remove objects attached to the ground.");
 			TraditionalChinese.use(ActionType.Cast, "釣魚", "Find a fish in a body of water and attempt to cast your line or net to catch it.");
 			TraditionalChinese.use(ActionType.Decode, "解析地圖", "Used for attempting to read the map. Use by the treasure location to reveal how far or close you are.");
 			TraditionalChinese.use(ActionType.Dig, "挖掘", "Used to dig up resources and items from the ground.");
-			TraditionalChinese.use(ActionType.Disassemble, "Disassemble", "");
+			TraditionalChinese.use(ActionType.Disassemble, "拆分合成物品", "");
 			TraditionalChinese.use(ActionType.Dismantle, "拆解", "");
 			TraditionalChinese.use(ActionType.DrawMap, "繪製地圖", "Draw a map using your skill in cartography of the surrounding area.");
 			TraditionalChinese.use(ActionType.Drink, "飲用", "Consumed on use. Will reduce your thirst; however, will provide negative effects when drinking sea/unpurified water.");
@@ -1296,7 +1284,6 @@
 			TraditionalChinese.use(ActionType.Transmogrify, "附魔", "Use while facing an equippable item to attempt to infuse with magical properties.");
 			TraditionalChinese.use(ActionType.TraverseTheSea, "橫渡海洋", "Used to travel to new, unexplored lands, leaving behind your current surroundings.");
 
-			// Terrain/tiles
 			TraditionalChinese.terrain(TerrainType.Ash, "", "灰燼");
 			TraditionalChinese.terrain(TerrainType.BarePalmTree, "", "光禿禿的棕櫚樹");
 			TraditionalChinese.terrain(TerrainType.BareTree, "", "光禿禿的樹");
@@ -1335,14 +1322,11 @@
 			TraditionalChinese.terrain(TerrainType.TreeWithVines, "", "長藤蔓的樹");
 			TraditionalChinese.terrain(TerrainType.WoodenFlooring, "", "木製地板");
 
-			// Events
 			TraditionalChinese.tileEvent(TileEvent.Type.Fire, "火", "A dangerous open flame providing heat and light.");
 
-			// On Equips
 			TraditionalChinese.onEquipType(OnEquipType.LightSource, "光源");
-			TraditionalChinese.onEquipType(OnEquipType.Telescopy, "Telescopy");
+			TraditionalChinese.onEquipType(OnEquipType.Telescopy, "望遠");
 
-			// Creatures
 			TraditionalChinese.creature(CreatureType.AcidSpitterDemon, "", "酸性分裂怪", "A small, but fierce demonic-looking creature with sharp claws. Appears to spit an acidic fluid.");
 			TraditionalChinese.creature(CreatureType.Bear, "", "熊", "A hulking carnivorous mammal attracted to your scent. A deadly foe without protection.");
 			TraditionalChinese.creature(CreatureType.Blindfish, "", "無眼魚", "A cave-dwelling, sightless fish. Hard to see in detail within the murky depths.");
@@ -1376,12 +1360,10 @@
 			TraditionalChinese.creature(CreatureType.Zombie, "", "殭屍", "A slow, but strong foul-smelling undead or diseased human. Appears to dislike the sun.");
 			TraditionalChinese.creature(CreatureType.Sandcat, "", "沙漠貓", "A small, but ferocious feline that lives exclusively in desert areas.");
 
-			// Unique corpse types
 			TraditionalChinese.creatureCorpse(CreatureType.FireElemental, "", "餘燼");
 			TraditionalChinese.creatureCorpse(CreatureType.Blood, "", "血");
 			TraditionalChinese.creatureCorpse(CreatureType.WaterBlood, "", "染血的水");
 
-			// Skills
 			TraditionalChinese.skill(SkillType.Chemistry, "化學", "Influences quality and success rate of crafted items using chemical mixtures.");
 			TraditionalChinese.skill(SkillType.Anatomy, "解剖", "Increases accuracy of creature health description.<br />Decreases chance of bleeding and poisoning.<br />Increases effectiveness of healing consumables.<br />Increases success chance when healing.");
 			TraditionalChinese.skill(SkillType.Archery, "射擊", "Increases attack damage, accuracy and maximum range when using bows and firearms.");
@@ -1410,7 +1392,6 @@
 			TraditionalChinese.skill(SkillType.Trapping, "陷阱製作", "Increases the amount of damage and success rate of trapping creatures.<br />Reduces chance of setting off traps and reduces damage taken from traps.");
 			TraditionalChinese.skill(SkillType.Woodworking, "木匠工藝", "Influences quality, repair, and success rate of crafted items using wood.");
 
-			// Milestones
 			TraditionalChinese.milestone(MilestoneType.Abnormalizer, "狩魔獵人", "Killed 25 aberrant creatures.");
 			TraditionalChinese.milestone(MilestoneType.Chef, "廚藝大師", "Cooked 25 food items.");
 			TraditionalChinese.milestone(MilestoneType.Crafter, "工藝大師", "Crafted 250 items.");
@@ -1436,11 +1417,10 @@
 			TraditionalChinese.milestone(MilestoneType.Treasurer, "賞金獵人", "Collected every one of the five types of treasure.");
 			TraditionalChinese.milestone(MilestoneType.Pulchritudinous, "眾神之王", "Equipped a legendary item in each equipment slot.");
 
-			// Hints
 			TraditionalChinese.hint(HintType.WelcomeToWayward, "歡迎遊玩 Wayward", "Welcome to the Early Access version of Wayward! Wayward is currently in beta status and many things will change and improve over time. Hint windows like these will display as you play the game if enabled. You can disable automatic hints by clicking the button \"Disable Hints\" below or in the options. If you need further help or hints, visit the <a target=\"_blank\" href=\"http://steamcommunity.com/app/379210/discussions/\">Steam Discussions forums</a>.<br /><br />If you want to keep up with Wayward, please visit the <a target=\"_blank\" href=\"http://www.unlok.ca/category/wayward/\">Wayward Blog</a> or <a target=\"_blank\" href=\"http://www.reddit.com/r/Wayward/\">Subreddit</a>.<br /><br />Want to help Wayward? Spread the word, or follow us on one of the following sites: <a target=\"_blank\" href=\"https://www.facebook.com/waywardgame\">Facebook</a>, <a target=\"_blank\" href=\"https://twitter.com/Wayward_Game\">Twitter</a>, or <a target=\"_blank\" href=\"http://www.indiedb.com/games/wayward\">IndieDB</a>.");
 			TraditionalChinese.hint(HintType.Controls, "操作方式", "Keybinds can be changed under \"Keybinds\" in the options menu.<br /><br /><h3>Window Shortcuts</h3><br />{ui.getStringForKeyBind(KeyBind.Escape)} = Close Menus and Windows, {ui.getStringForKeyBind(KeyBind.Inventory)} = Inventory, {ui.getStringForKeyBind(KeyBind.Equipment)} = Equipment, {ui.getStringForKeyBind(KeyBind.Crafting)} = Crafting, {ui.getStringForKeyBind(KeyBind.Help)} = Help, {ui.getStringForKeyBind(KeyBind.Skills)} = Skills, {ui.getStringForKeyBind(KeyBind.Messages)} = Messages, {ui.getStringForKeyBind(KeyBind.Options)} = Options, {ui.getStringForKeyBind(KeyBind.Actions)} = Actions, {ui.getStringForKeyBind(KeyBind.Milestones)} = Milestones<br /><br /><h3>Movement</h3><br />To move, you can to use {ui.getStringForKeyBind(KeyBind.Up)}, {ui.getStringForKeyBind(KeyBind.Left)}, {ui.getStringForKeyBind(KeyBind.Down)}, {ui.getStringForKeyBind(KeyBind.Right)} or by clicking/tapping on the game screen in the direction you want to move. To skip/pass a turn, or to pick up item(s) on the tile you are standing on, press the spacebar or left click/tap your character on the game screen.<br /><br /><h3>Actions</h3><br />Opening up the Actions menu will bring up a list of actions you can perform on the adjacent tile or object; for example, collecting a pineapple without needing to carve it up. This is also an alternate way to inspect a tile without needing to right click or hover on the game screen. Jumping is also selectable in the actions menu which can help you get out of tight spots, but watch out for the heavy stamina reduction; it's based on your current weight.<br /><br /><h3>Using Items</h3><br />To use an item, you may left click/tap it to bring up the item's menu. You will see a list of actions you can perform. Additionally, you are able to drag and drop an item into one of the quickslots. Press the number or hotkey ({ui.getStringForKeyBind(KeyBind.One)}, {ui.getStringForKeyBind(KeyBind.Two)}, {ui.getStringForKeyBind(KeyBind.Three)}, etc.) that corresponds with which quickslot it is attached to perform the primary action for the item (unless changed).<br /><br /><h3>Item Uses, Dropping and Information</h3><br />Some items have more than one use - these will show up in the item's menu if available. You are able to right click an item to automatically drop it without going into the item menu. If you are facing a container, you will drop the item inside. You can shift + right click (or use \"Drop All\" from the menu) to drop multiple items of the same kind. You are also able to right click on the game screen to reveal information about what you are clicking on (referred to as \"Inspect\"), whether it be items, creatures, tiles, and more.<br /><br /><h3>More Information</h3><br />Hovering over elements on screen will typically reveal more information. Tool-tips will appear over items. Hovering over crafting items will highlight items used in the craft.<br /><br /><h3>Item Management</h3><br />Besides dragging and dropping items to your quickslots, you are also able to equip items in this fashion, provided it is an equipment item and fits in that slot. Dragging and dropping is also used to move items to your container window and inventory (shift + dragging will move all items of the same type). Additionally, right clicking an item in your equipment list, quickslots or container window will remove it from that slot.");
 			TraditionalChinese.hint(HintType.CorpseCarving, "收割屍體", "To harvest potential resources from corpses, you must carve them with a sharp item. Choose \"Carve\" from the item's menu or try moving it to a quickslot for ease of use.");
-			TraditionalChinese.hint(HintType.Doodads, "Doodads", "Doodads are considered objects attached to the ground like plants, piles of rocks, furnaces, campfires, etc. To collect them, you can do one of the following:<br /><br />1. While facing the item, click or press the \"Actions\" hotkey with {ui.getStringForKeyBind(KeyBind.Actions)}, and select the \"Collect Object With Hands\" option.<br />2. Use an item with \"Digging\" such as a stone shovel.<br />3. Use an item with \"Carving\" such as a sharp rock.<br />4. Use an item with \"Gather\" such as a wooden pole.<br /><br />Using your bare hands with no tool (option 1) can sometimes harm you. Using a tool (option 2/3/4) will decrease the durability of the item. Some objects may require a \"Carving\" tool such as corpses to harvest from them.");
+			TraditionalChinese.hint(HintType.Doodads, "地面上的物體", "Doodads are considered objects attached to the ground like plants, piles of rocks, furnaces, campfires, etc. To collect them, you can do one of the following:<br /><br />1. While facing the item, click or press the \"Actions\" hotkey with {ui.getStringForKeyBind(KeyBind.Actions)}, and select the \"Collect Object With Hands\" option.<br />2. Use an item with \"Digging\" such as a stone shovel.<br />3. Use an item with \"Carving\" such as a sharp rock.<br />4. Use an item with \"Gather\" such as a wooden pole.<br /><br />Using your bare hands with no tool (option 1) can sometimes harm you. Using a tool (option 2/3/4) will decrease the durability of the item. Some objects may require a \"Carving\" tool such as corpses to harvest from them.");
 			TraditionalChinese.hint(HintType.Caves, "洞穴探險", "Caves are the perfect place for hidden treasure, but first, they may need illumination with a torch to explore them further. Caves can be extremely dangerous and may require advanced armor and weaponry.");
 			TraditionalChinese.hint(HintType.Nightfall, "夜晚降臨", "If nightfall is approaching, find a safe area to camp out and prepare yourself for combat! Many tough creatures can prowl the night.");
 			TraditionalChinese.hint(HintType.StaminaReplenishment, "補充耐力值", "If you find yourself getting exhausted, sleep or rest using a bedroll or hammock to regenerate stamina. You can also rest by going into the Actions menu and selecting \"Rest\"; however, resting with an item will produce better regenerative effects. Rest is different from sleep in that you will only ever rest until your stamina is maxed out. Alternatively, you may hold spacebar or click your character to skip turns.");
