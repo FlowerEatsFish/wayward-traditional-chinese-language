@@ -4,10 +4,10 @@
 #### Forked the full english language file from [here](https://github.com/WaywardGame/english-language/commit/a4da45f027db761d9a80c9f74d96da5475437dd4).
 從[原作者的英文語言檔案](https://github.com/WaywardGame/english-language/commit/a4da45f027db761d9a80c9f74d96da5475437dd4)完全複製出來。
 
-#### Translation work is divided into two phases as follows: "all the terms and message texts", and "description texts of all the terms".
+#### Translation work is divided into two phases as follows: "all the terms and message texts", and "descriptive texts of all the terms".
 翻譯工作分為兩個階段：「所有名詞及訊息文字」、「所有名詞的描述文字」。
 
-#### The translation files will be ready to publish to [Steam Workshop] (http: //steamcommunity.com/app/379210/workshop/) after determining the completion of the first stage and no major problems.
+#### The translation files will be ready to publish to [Steam Workshop] (http: //steamcommunity.com/app/379210/workshop/) after determining the completion of the first stage and no major problem.
 第一階段在確定完成以及沒有較大問題之後，就可以準備上架到 [Steam 工作坊](http://steamcommunity.com/app/379210/workshop/)。
 
 #### The second stage is trouble that it is required to translate descriptive texts. It will be progressed when I am idle.
