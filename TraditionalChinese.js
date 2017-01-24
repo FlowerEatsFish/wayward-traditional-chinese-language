@@ -653,6 +653,7 @@
 			TraditionalChinese.message(Message.StirredUpCreature, "你喚醒了在地底深處的生物！");
 			TraditionalChinese.message(Message.StoppedYourBleeding, "你把出血醫治好了。");
 			TraditionalChinese.message(Message.StopUsingRaft, "你停止使用木筏。");
+			TraditionalChinese.message(Message.StrengthIncreasing, "你感覺你變得非常強壯。 (力量值增加)");
 			TraditionalChinese.message(Message.SummonedGuardiansByDiggingTreasure, "你在挖出寶藏的時候，喚醒了寶藏的守護者。");
 			TraditionalChinese.message(Message.SunIsRising, "太陽正在升起。");
 			TraditionalChinese.message(Message.SunIsSetting, "太陽正在降落。");
