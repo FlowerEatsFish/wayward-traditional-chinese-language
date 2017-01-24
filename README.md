@@ -4,14 +4,17 @@
 #### Forked the full english language file from [here](https://github.com/WaywardGame/english-language/commit/a4da45f027db761d9a80c9f74d96da5475437dd4).
 從[原作者的英文語言檔案](https://github.com/WaywardGame/english-language/commit/a4da45f027db761d9a80c9f74d96da5475437dd4)完全複製出來。
 
-#### I first used GitHub, so will explore GitHub via translation work.
-因為我第一次使用 GitHub，所以將透過翻譯工作以摸索 GitHub。
+#### Translation work is divided into two phases as follows: "all the terms and message texts", and "description texts of all the terms".
+翻譯工作分為兩個階段：「所有名詞及訊息文字」、「所有名詞的描述文字」。
 
-#### Please don't expect that I can finish the translation.
-請不要期待我可以把翻譯工作做完。
+#### The translation files will be ready to publish to [Steam Workshop] (http: //steamcommunity.com/app/379210/workshop/) after determining the completion of the first stage and no major problems.
+第一階段在確定完成以及沒有較大問題之後，就可以準備上架到 [Steam 工作坊](http://steamcommunity.com/app/379210/workshop/)。
 
-#### Therefore, [Steam Workshop mod for wayward](http://steamcommunity.com/app/379210/workshop/) has not been planned.
-所以，並沒有打算製作 [Steam 工作坊模組](http://steamcommunity.com/app/379210/workshop/)。
+#### The second stage is trouble that it is required to translate descriptive texts. It will be progressed when I am idle.
+第二階段則比較麻煩，需要處理大量的描述文字，有閒的時候，才會翻譯完。
+
+#### Only I am not enough to take the translation quality and version updates of the game, so open the source code to modify and maintain it together.
+單憑一人力量不足兼顧翻譯品質以及版本更新，因此開放給各路專家一同協力修改與維護。
 
 ***
 
@@ -28,8 +31,8 @@
 
 ***
 
-> #### 翻譯困難的字串 [最後更新：2017.01.08 (UTC+8)]
-> 有些字串是本人想透過探索遊戲以得到更好的翻譯。不幸的是，本人一直活不過第一個晚上。
+> #### 翻譯困難的字串 [最後更新：2017.01.24 (UTC+8)]
+> 有些名詞是本人想透過探索遊戲以得到更好的翻譯。不幸的是，對於遊戲機制的不熟悉導致無法成功取得進展（翻譯完後，才知道這遊戲已經有做出結局了）。
 > 
 > **Creature class:**
 > AcidSpitterDemon
@@ -51,7 +54,6 @@
 > Nopal
 > Offal
 > OldInstructionalScroll
-> OrbOfMalign
 > PeatBandage
 > PoisonIvyLeaves
 > PoisonIvySeeds
@@ -63,13 +65,9 @@
 > Tannin
 > Thistles
 > WildOnion
-> WoodenDoor
-> WoodenGate
 > WroughtIron
 >
 > **ItemGroup class:**
-> Health
-> Pole
 > Pulp
 > Reinforce
 > Skewer
@@ -98,9 +96,5 @@
 > Doodads
 > Encumberance
 > 
-> **Other class:**
-> a
-> an
-> 
-> **Ignorable class:**
-> *detail of items, creatures, etc.*
+> **Description class:**
+> *Descriptions of items, creatures, etc.*
