@@ -1,7 +1,7 @@
 ﻿{
 	"name": "繁體中文語言翻譯模組",
 	"description": "測試版本",
-	"version": "0.99.0",
+	"version": "0.99.1",
 	"author": "FlowerEatingFish",
 	"unloadable": true,
 	"compatible_minor_versions": [
