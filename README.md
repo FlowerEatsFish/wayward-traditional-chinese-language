@@ -1,8 +1,18 @@
-﻿## Traditional Chinese translation for Wayward on version beta 2.2.3.
-適用於 Wayward 遊戲（beta 2.2.3 版本）的繁體中文語系。
+﻿![compatibility][1] ![license][2] ![steam_workshop][3] ![github][4]
 
-#### Forked the full english language file from [here](https://github.com/WaywardGame/english-language/commit/a4da45f027db761d9a80c9f74d96da5475437dd4).
-從[原作者的英文語言檔案](https://github.com/WaywardGame/english-language/commit/a4da45f027db761d9a80c9f74d96da5475437dd4)完全複製出來。
+[1]: https://img.shields.io/badge/compatible%20game%20version-beta%202.2.*-green.svg
+[2]:
+https://img.shields.io/badge/license-MIT-blue.svg
+[3]:
+https://img.shields.io/badge/Steam%20workshop%20version-unpublished-red.svg
+[4]:
+https://img.shields.io/badge/GitHub%20version-0.99.1-green.svg
+
+## Traditional Chinese translation for Wayward.
+適用於 Wayward 遊戲的繁體中文語系。
+
+#### Forked the full english language file and the MIT License from [here](https://github.com/WaywardGame/english-language/commit/a4da45f027db761d9a80c9f74d96da5475437dd4).
+從[原作者的英文語言檔案](https://github.com/WaywardGame/english-language/commit/a4da45f027db761d9a80c9f74d96da5475437dd4)完全複製出來，包括授權條款。
 
 #### Translation work is divided into two phases as follows: "all the terms and message texts", and "descriptive texts of all the terms".
 翻譯工作分為兩個階段：「所有名詞及訊息文字」、「所有名詞的描述文字」。
