@@ -32,15 +32,15 @@ https://img.shields.io/badge/GitHub%20version-0.99.1-green.svg
 >
 > LICENSE：原作者（指遊戲開發者）的授權條款。
 >
-> README.md : 本文。
+> README.md：本文。
 >
-> TraditionalChinese.ts : 翻譯初稿，源自原作者的原始檔案。因應模組需求，已刪除，並改由 TraditionalChinese.js 接手繼續翻譯。 (This file has been deleted for mod request. Please follow TraditionalChinese.js file.)
+> TraditionalChinese.ts：翻譯初稿，源自原作者的原始檔案。因應模組需求，已刪除，並改由 TraditionalChinese.js 接手繼續翻譯。 (This file has been deleted for mod request. Please follow TraditionalChinese.js file.)
 >
-> mod.json : Wayward local 及 Steam Workshop mods 正式檔案。
+> mod.json：Wayward local 及 Steam Workshop mods 正式檔案。
 >
-> mod.png : Wayward local 及 Steam Workshop mods 正式檔案。
+> mod.png：Wayward local 及 Steam Workshop mods 正式檔案。
 >
-> TraditionalChinese.js : Wayward local 及 Steam Workshop mods 正式檔案。
+> TraditionalChinese.js：Wayward local 及 Steam Workshop mods 正式檔案。
 
 ***
 
